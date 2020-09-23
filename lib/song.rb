@@ -19,7 +19,7 @@ class Song
     artist.add_song(self)
   end
 
-  def song.all
+  def self.all
     @@all
   end
 
